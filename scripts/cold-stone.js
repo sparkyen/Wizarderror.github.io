@@ -78,6 +78,7 @@ tocLinkList.forEach(function(link) {
 })
 
 // comment
+/*
 const loader = document.getElementById('loader')
 const utteranc = document.getElementById('utteranc')
 
@@ -103,3 +104,4 @@ if (utteranc) {
     clearTimeout(timeout)
   }, 2000)
 }
+*/
