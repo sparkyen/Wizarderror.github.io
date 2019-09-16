@@ -52,8 +52,8 @@
 </article>
 
 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<div id="gitalk-container"></div>
 <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<div id="gitalk-container"></div>
 <script type="text/javascript">
     var gitalk = new Gitalk({
         clientID: '393dfd841ab65580a085',
@@ -61,7 +61,7 @@
         id: decodeURI(window.location.pathname),
         repo: 'Gitalk-Comment',
         owner: 'Wizarderror',
-        admin: 'Wizarderror'
+        admin: 'Wizarderror',
 	pagerDirection: 'first'
     })
     gitalk.render('gitalk-container')
